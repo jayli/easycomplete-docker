@@ -1,6 +1,6 @@
 # easycomplete-docker
 
-Docker language server extension using [dockerfile-language-server-nodejs](https://github.com/rcjsuen/dockerfile-language-server) for [vim-easycomplete](https://github.com/jayli/vim-easycomplete).
+Docker language server extension using [dockerfile-language-server](https://github.com/rcjsuen/dockerfile-language-server) for [vim-easycomplete](https://github.com/jayli/vim-easycomplete).
 
 ### Install
 
