@@ -10,6 +10,7 @@ function this.setup()
       completor      = require('easycomplete_docker').completor,
       constructor    = require('easycomplete_docker').constructor,
       gotodefinition = require('easycomplete_docker').goto_definition,
+      filter         = require('easycomplete_docker').filter,
       command        = "docker-langserver"
     })
 end
@@ -25,6 +26,10 @@ end
 
 function this.completor(...)
   return easycomplete.do_lsp_complete(unpack({...}))
+end
+
+function this.filter(matches, ctx)
+  return matches
 end
 
 function this.goto_definition(...)
