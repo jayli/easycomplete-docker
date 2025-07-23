@@ -7,7 +7,7 @@ Docker language server extension using [dockerfile-language-server](https://gith
 Install via Packer.nvim
 
 ```lua
--- use { 'jayli/vim-easycomplete', requires = {'L3MON4D3/LuaSnip'} }
+use { 'jayli/vim-easycomplete', requires = {'L3MON4D3/LuaSnip'} }
 use { 'jayli/easycomplete-docker' }
 ```
 
