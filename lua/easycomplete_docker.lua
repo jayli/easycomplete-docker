@@ -17,7 +17,7 @@ end
 
 function this.constructor(opt, ctx)
   easycomplete.register_lsp_server(opt, {
-      name = "docker-langserver",
+      name = "docker-lsp-name",
       cmd = {easycomplete.get_command(opt["name"]), "--stdio"},
       root_uri = easycomplete.get_default_root_uri(),
       allowlist = opt["whitelist"],
